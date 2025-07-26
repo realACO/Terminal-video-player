@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCII Video Terminal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="terminal-container">
+        <div class="terminal-header">
+            <div class="terminal-title">ASCII VIDEO TERMINAL v1.0</div>
+            <div class="terminal-controls">
+                <span class="control-btn minimize">─</span>
+                <span class="control-btn maximize">□</span>
+                <span class="control-btn close">×</span>
+            </div>
+        </div>
+        
+        <div class="terminal-body">
+            <div class="command-line">
+                <span class="prompt">user@terminal:~$</span>
+                <span class="command">./ascii_player.exe</span>
+            </div>
+            
+            <div class="status-line">
+                <span id="status">READY</span>
+                <span class="separator">|</span>
+                <span id="fps">0 FPS</span>
+                <span class="separator">|</span>
+                <span id="resolution">0x0</span>
+            </div>
+            
+            <div class="video-controls">
+                <input type="file" id="videoInput" accept="video/*" class="file-input">
+                <label for="videoInput" class="file-label">[LOAD VIDEO]</label>
+                <button id="playBtn" class="control-button" disabled>[PLAY]</button>
+                <button id="pauseBtn" class="control-button" disabled>[PAUSE]</button>
+                <button id="stopBtn" class="control-button" disabled>[STOP]</button>
+            </div>
+            
+            <div class="settings">
+                <label class="setting-label">
+                    Width: <input type="range" id="widthSlider" min="40" max="120" value="80" class="slider">
+                    <span id="widthValue">80</span>
+                </label>
+                <label class="setting-label">
+                    Contrast: <input type="range" id="contrastSlider" min="0.5" max="2" step="0.1" value="1" class="slider">
+                    <span id="contrastValue">1.0</span>
+                </label>
+            </div>
+            
+            <div class="ascii-display" id="asciiDisplay">
+                <div class="loading-message">
+                    ╔══════════════════════════════════════╗<br>
+                    ║        TERMINAL VIDEO PLAYER         ║<br>
+                    ║                                      ║<br>
+                    ║  Load a video file to begin          ║<br>
+                    ║  conversion to ASCII art             ║<br>
+                    ║                                      ║<br>
+                    ║  Supported formats: MP4, WebM, AVI   ║<br>
+                    ╚══════════════════════════════════════╝
+                </div>
+            </div>
+            
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+                <div class="progress-text" id="progressText">00:00 / 00:00</div>
+            </div>
+        </div>
+    </div>
+    
+    <video id="hiddenVideo" style="display: none;" muted></video>
+    <audio id="audioPlayer" style="display: none;"></audio>
+    <canvas id="hiddenCanvas" style="display: none;"></canvas>
+    
+    <script src="script.js"></script>
+</body>
+</html>
