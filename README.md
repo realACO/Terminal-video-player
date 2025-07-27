@@ -64,11 +64,12 @@ Or, try the hosted version:
 
 ## 🖼️ Preview
 
-<img width="1366" height="694" alt="1" src="https://github.com/user-attachments/assets/0cb227cd-9139-45ca-8186-7371fe269955" />
+<img width="1366" height="641" alt="11" src="https://github.com/user-attachments/assets/80d5f16f-fd63-499f-9169-d2b2d2ecd062" />
 
-<img width="1366" height="689" alt="2" src="https://github.com/user-attachments/assets/38774d2b-39f3-4d79-a0ca-f8b5bb59ab57" />
+<img width="1366" height="638" alt="22" src="https://github.com/user-attachments/assets/85eb8cf2-364a-4d20-abc3-90c88870ba9f" />
 
-<img width="1366" height="688" alt="3" src="https://github.com/user-attachments/assets/cfc69a02-3363-4c23-9ad3-5657a59be074" />
+<img width="1366" height="641" alt="33" src="https://github.com/user-attachments/assets/33585651-1c16-496f-923d-f486f4445e80" />
+
 
 
 ---
