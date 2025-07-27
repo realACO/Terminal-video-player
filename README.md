@@ -64,13 +64,7 @@ Or, try the hosted version:
 
 ## 🖼️ Preview
 
-<img width="1366" height="641" alt="11" src="https://github.com/user-attachments/assets/80d5f16f-fd63-499f-9169-d2b2d2ecd062" />
-
-<img width="1366" height="638" alt="22" src="https://github.com/user-attachments/assets/85eb8cf2-364a-4d20-abc3-90c88870ba9f" />
-
-<img width="1366" height="641" alt="33" src="https://github.com/user-attachments/assets/33585651-1c16-496f-923d-f486f4445e80" />
-
-
+<img width="1365" height="683" alt="terminal" src="https://github.com/user-attachments/assets/d68595f2-1231-4b81-ad70-a31c88dfa7df" />
 
 ---
 
