@@ -43,6 +43,10 @@ A **web-based video player with a terminal-inspired interface**, inspired by cla
 | `index.js`   | Core logic and initialization |
 | `script.js`  | Additional JavaScript helper  |
 
+##Images
+<img width="1365" height="683" alt="terminal" src="https://github.com/user-attachments/assets/3842f87b-34e9-4aea-869e-98c934f0ef4c" />
+
+
 ## Customization
 
 - Change the video source in `index.html` to play your own videos.
