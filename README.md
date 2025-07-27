@@ -1,63 +1,103 @@
-# Terminal Video Player
+# 🖥️ Terminal Video Player
 
-A **web-based video player with a terminal-inspired interface**, inspired by classic terminal aesthetics and written in JavaScript, HTML, and CSS.
+A **web-based video player** with a **terminal-inspired interface**, mimicking classic command-line aesthetics using pure **HTML, CSS, and JavaScript**—no frameworks.
 
-[Live Demo](https://realaco.github.io/Terminal-video-player/)  
-*(View and interact with the app directly in your browser.)*
+[🔗 Live Demo](https://realaco.github.io/Terminal-video-player/)\
+*Experience the terminal-style media player right in your browser.*
 
-## Features
+---
 
-- **Terminal-style Interface**: Presents media controls and status in a retro terminal theme.
-- **Keyboard Controls**: Easily manage playback, volume, and seeking using keyboard shortcuts.
-- **Responsive Design**: Works well on both desktop and mobile screens.
-- **Lightweight**: Pure HTML, CSS, and JavaScript—no external frameworks.
+## ✨ Features
 
-## Installation & Usage
+- 🎮 **Terminal UI** – Retro terminal look with animated feedback.
+- 🎹 **Keyboard Shortcuts** – Play, pause, seek, mute, and control volume.
+- 📱 **Responsive Design** – Optimized for both desktop and mobile.
+- ⚡ **Lightweight & Fast** – No external libraries or dependencies.
 
-1. **Clone the Repository:**
-    ```
-    git clone https://github.com/realACO/Terminal-video-player.git
-    cd Terminal-video-player
-    ```
+---
 
-2. **Open `index.html`:**
-    - Simply open the `index.html` file with your web browser.
-    - Or use [the live demo](https://realaco.github.io/Terminal-video-player/) for instant access.
+## 📦 Installation & Usage
 
-## Keyboard Shortcuts
+### 🗁 Clone the Repository
 
-| Key        | Action                  |
-|------------|-------------------------|
-| Space      | Play/Pause              |
-| Left/Right | Seek backward/forward   |
-| Up/Down    | Volume up/down          |
-| M          | Mute/Unmute             |
-| F          | Toggle Fullscreen       |
+```bash
+git clone https://github.com/realACO/Terminal-video-player.git
+cd Terminal-video-player
+```
 
-## Project Structure
+### 🚀 Open in Browser
 
-| File         | Description                   |
-|--------------|-------------------------------|
-| `index.html` | Main HTML structure           |
-| `style.css`  | Terminal-inspired styling     |
-| `index.js`   | Core logic and initialization |
-| `script.js`  | Additional JavaScript helper  |
+You can open the project locally by double-clicking:
 
-##Images
-<img width="1365" height="683" alt="terminal" src="https://github.com/user-attachments/assets/3842f87b-34e9-4aea-869e-98c934f0ef4c" />
+```bash
+index.html
+```
+
+Or, try the hosted version:
+
+👉 [Live Demo](https://realaco.github.io/Terminal-video-player/)
+
+---
+
+## ⌘️ Keyboard Shortcuts
+
+| Key     | Function                |
+| ------- | ----------------------- |
+| `Space` | Play / Pause            |
+| `← →`   | Seek backward / forward |
+| `↑ ↓`   | Volume up / down        |
+| `M`     | Mute / Unmute           |
+| `F`     | Toggle Fullscreen       |
+
+---
+
+## 📂 Project Structure
+
+| File         | Purpose                               |
+| ------------ | ------------------------------------- |
+| `index.html` | Main HTML structure                   |
+| `style.css`  | Terminal-style theming and layout     |
+| `index.js`   | Video player logic and event handlers |
+| `script.js`  | Utility/helper functions (if any)     |
+
+---
+
+## 🖼️ Preview
+
+<img width="1366" height="694" alt="1" src="https://github.com/user-attachments/assets/0cb227cd-9139-45ca-8186-7371fe269955" />
+
+<img width="1366" height="689" alt="2" src="https://github.com/user-attachments/assets/38774d2b-39f3-4d79-a0ca-f8b5bb59ab57" />
+
+<img width="1366" height="688" alt="3" src="https://github.com/user-attachments/assets/cfc69a02-3363-4c23-9ad3-5657a59be074" />
 
 
-## Customization
+---
 
-- Change the video source in `index.html` to play your own videos.
-- Adjust styling in `style.css` for different themes.
+## ⚙️ Customization
 
-## Contributing
+- **Change the video**: Modify the `<video>` tag source in `index.html`.
+- **Change appearance**: Tweak `style.css` to match different terminal themes (e.g., Monokai, Dracula).
+- **Add commands**: Enhance interactivity by simulating a typed terminal command interface.
 
-Pull requests are welcome. For major changes, please open an issue first.
+---
 
-## License
+## 🤝 Contributing
 
-This project is open source. License terms may be added by the author.
+Pull requests are welcome!\
+For major changes, please [open an issue](https://github.com/realACO/Terminal-video-player/issues) first to discuss what you would like to change.
 
-*Created by [realACO](https://github.com/realACO/Terminal-video-player)*
+---
+
+## 📄 License
+
+This project is currently open-source.\
+License details may be updated by the author in the future.
+
+---
+
+## 🙌 Author
+
+Made with ❤️ by [**realACO**](https://github.com/realACO)
+
+---
+
